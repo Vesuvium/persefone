@@ -2,8 +2,8 @@ Persefone
 =========
 |Pypi| |Travis|
 
-Persefone is a Siren encoder that uses ujson to generate Siren documents
-efficiently.
+Persefone is an encoder for the `Siren <https://github.com/kevinswiber/siren>`_
+hypermedia format that uses ujson to generate Siren-compliant JSON efficiently.
 
 Usually such encoders work with JSON, so you convert your data to JSON and pass
 it to the encoder.
