@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import io
+
 from setuptools import find_packages, setup
 
 
@@ -17,8 +18,11 @@ setup(
     packages=find_packages(),
     tests_require=[
         'pytest',
+        'pytest-mock'
     ],
     setup_requires=['pytest-runner'],
-    install_requires=[],
+    install_requires=[
+        'ujson>=1.35'
+    ],
     classifiers=[]
 )
