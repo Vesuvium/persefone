@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from unittest.mock import MagicMock
 
-from persefone import Siren
+from persefone.peewee import Siren
 
 from pytest import fixture
 
