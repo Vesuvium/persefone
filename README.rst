@@ -1,6 +1,6 @@
 Persefone
 =========
-|Pypi|
+|Pypi| |Travis|
 
 Persefone is a Siren encoder that uses ujson to generate Siren documents
 efficiently.
@@ -48,5 +48,8 @@ Contributing
 Contributions and feedbacks are welcome. You can just open an issue.
 
 
-.. |Pypi| image:: https://img.shields.io/pypi/v/persefone.svg?maxAge=3600&style=flat-square
+.. |Pypi| image:: https://img.shields.io/pypi/v/persefone.svg?maxAge=3600&style=for-the-badge
    :target: https://pypi.python.org/pypi/persefone
+
+.. |Travis| image:: https://img.shields.io/travis/Vesuvium/persefone.svg?maxAge=3600&style=for-the-badge
+   :target: https://travis-ci.org/Vesuvium/persefone
