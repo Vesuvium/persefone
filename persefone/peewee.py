@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
 import ujson
 
+from .persefone import Persefone
 
-class Siren:
 
-    def __init__(self, data, path, model=None, total_items=0, current_page=1):
-        self.data = data
-        self.path = path
-        self.model = model
-        self.total_items = total_items
-        self.current_page = current_page
+class Siren(Persefone):
 
     def paginate(self):
         """
