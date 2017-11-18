@@ -29,7 +29,7 @@ Install with pip::
 
 Then::
 
-    from persefone import Siren
+    from persefone.peewee import Siren
 
     Siren(data, '/path', model=MyModel).encode() # returns Siren-valid JSON
 
